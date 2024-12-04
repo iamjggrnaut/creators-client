@@ -1,0 +1,86 @@
+@import '../App.css';
+
+.sign-page {
+    min-height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-container {
+    background-image: url('/src/assets/signbg.png');
+    background-size: contain;
+    width: 100%;
+    min-height: 76vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding-top: 40px;
+}
+
+.login-form {
+    /* background-color: var(--orange); */
+    max-width: 340px;
+    max-height: 500px;
+    border-radius: 40px;
+    padding: 32px;
+    color: var(--dark);
+    margin-left: 40px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-weight: 500;
+}
+
+.form-input {
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 4px 8px;
+    background-color: var(--dark);
+    color: var(--light);
+    font-size: 14px;
+}
+
+.signin-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 100px;
+    padding: 0 150px 0 0;
+}
+
+.list-block {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.list-block span {
+    padding-bottom: 4px;
+}
+
+.signup-page {
+    min-height: 76vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.signup-form {
+    width: 340px;
+    border-radius: 40px;
+    padding: 32px;
+    color: var(--dark);
+    margin-left: 40px;
+}
